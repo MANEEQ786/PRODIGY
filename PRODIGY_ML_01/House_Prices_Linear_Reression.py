@@ -5,7 +5,7 @@ from sklearn.model_selection import train_test_split
 from sklearn.linear_model import LinearRegression
 from sklearn.metrics import mean_squared_error, r2_score
 
-# Load the dataset (replace 'your_dataset.csv' with the actual dataset file)
+# Load the dataset
 data = pd.read_csv('DataSet.csv')
 
 # Check for missing 'Price' values
